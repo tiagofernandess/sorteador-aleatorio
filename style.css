@@ -17,7 +17,7 @@ body {
 
 img {
     width: 350px;
-    margin-bottom: 20px;
+    margin-bottom: 40px;
 }
 
 p {
@@ -63,7 +63,7 @@ input::placeholder {
 button {
     margin-top: 35px;
     height: 50px;
-    width: 150px;
+    width: 420px;
     border-radius: 10px;
     background-color: #AEC346;
     color: white;
@@ -71,12 +71,19 @@ button {
     box-shadow: 0px 0px 5px 0px #AEC346;
     border: none;
     cursor: pointer;
-    font-size: 16px;
+    font-size: 30px;
+    text-transform: uppercase;
 }
 
 button:hover {
-    opacity: 0.4;
+    opacity: 0.8;
 }
+
+button:active {
+    opacity: 0.6;
+}
+
+
 
 
 
