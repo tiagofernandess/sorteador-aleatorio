@@ -47,8 +47,9 @@ input {
     color: white;
     padding-left: 8px;
     margin: 0 10px;
-    font-size: 18px;
+    font-size: 25px;
     font-weight: bold;
+    text-align: center;
 
 }
 
@@ -56,6 +57,7 @@ input::placeholder {
     color: white;
     opacity: 0.7;
     font-weight: normal;
+    text-align: start;
 }
 
 button {
